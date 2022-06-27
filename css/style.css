@@ -1,0 +1,125 @@
+html, body {min-height: 100%;}
+
+html > body{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(57,64,57,0.9082983535210959) 100%);
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*--------------------general----------------------*/
+.button{
+    width: 200px;
+}
+
+.button:hover{
+    color: red;
+}
+
+main{
+    margin-top: 130px;
+}
+
+.selected{
+    color: red !important;
+}
+
+caption{
+    color: #fff;
+}
+
+.bold{
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.right{
+    text-align: right;
+}
+/*--------------------login----------------------*/
+.login-input{
+    margin: 0 30px;
+    height: 50px;
+    width: 200px;
+}
+
+.login-button{
+    margin-top: 0px;
+}
+
+.reg-button{
+    font-size: 18px;
+    transition: 500ms ease-in-out;
+}
+
+a.reg-button:hover{
+    color: red;
+    cursor: pointer;
+    transition: 500ms ease-in-out;
+}
+
+.logout-button{
+    display: block;
+    margin-top: 25px;
+}
+
+.username{
+    position: inherit;
+    top: 120px;
+    right: 10px;
+    font-size: 28px;
+    color: white;
+    padding: 10px;
+}
+/*--------------------registration----------------------*/
+
+.registration{
+    width: 50%;
+    margin: 0 auto;
+    border: 8px solid black;
+    border-radius: 20px;
+    padding: 25px;
+    background: white;
+    opacity: 1;
+    display: none;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.show{
+    display: block;
+}
+
+.registration-title{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/*--------------------table----------------------*/
+td .button{
+    display: block;
+    margin: 0 auto;
+    background: rgb(48, 194, 48);
+    color: #f2f2f2;
+}
+
+td .button:hover{
+    color: #f2f2f2;
+}
+
+@media (max-width: 960px)
+{
+    .navigation .login-items{
+        transform: translateY(-200px);
+    }
+
+    .show-menu{
+        transform: translateY(127px) !important;
+    }
+}
